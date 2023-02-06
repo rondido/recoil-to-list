@@ -1,12 +1,18 @@
 import React from 'react';
-import {} from 'recoil';
+import { RecoilRoot } from 'recoil';
+import Calendar from './components/Calendar';
+
+
+
 
 function App() {
+
   return (
-    <div>
-      Hello
-    
-    </div>
+    <RecoilRoot>
+      <div>        
+        <Calendar/>
+      </div>
+    </RecoilRoot>
   );
 }
 
